@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadadustream-principale</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Fond noir */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .bubble-title {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            color: #96024f;
+            border: 10px solid #96024f;
+            border-radius: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .home-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: #10102;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .home-button:hover {
+            background-color: #0056b3;
+        }
+
+        .home-button img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .description {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            color: #000; /* Texte noir pour meilleure lisibilité */
+        }
+
+        .action-button {
+            padding: 15px 30px;
+            margin: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .action-button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: -5px ;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="bubble-title">Fadadustream</h1>
+
+    <!-- Bouton Home -->
+    <button id="home-button" class="home-button">
+        <img src="home.png" alt="Home">
+    </button>
+
+    <!-- Contenu principal de la page -->
+    <main>
+        <div class="description">
+            <p>
+Bienvenue sur notre site de streaming, où votre soif de divertissement trouve son habitat ultime ! 🎬
+
+Plongez dans un univers captivant où chaque série a été choisie avec soin pour correspondre à vos goûts les plus raffinés. Que vous soyez un amateur de drames palpitants, un passionné de science-fiction futuriste, ou un amoureux d'histoires romantiques, notre site vous offre une expérience inégalée d'immersion totale.
+
+Découvrez des fonctionnalités exceptionnelles qui rendent votre navigation et votre visionnage aussi plaisants que confortables. L'interface intuitive et élégante vous permet de basculer facilement entre le streaming et le téléchargement, assurant que vos séries préférées vous accompagnent partout, même hors ligne.
+
+Profitez d'une ambiance sonore subtile qui transforme votre expérience de visionnage, avec une musique de fond soigneusement sélectionnée pour vous plonger encore plus profondément dans l'univers de chaque série. Et si vous préférez le silence, un simple clic sur notre bouton de sourdine désactivera la musique sans effort.
+
+Laissez-vous emporter par la richesse des descriptions de séries, illustrées par des vidéos en haute définition, et plongez au cœur des intrigues aussi passionnantes qu’inoubliables. Nos descriptions détaillées mettent en avant les points forts de chaque série et vous aident à choisir celle qui saura captiver votre attention.
+
+Naviguez en toute sérénité sur un site adapté à tous les appareils, que ce soit votre ordinateur de bureau, votre tablette ou votre smartphone. Chaque page est conçue pour vous offrir une expérience fluide et agréable, avec une attention particulière portée à l’accessibilité, pour que chacun puisse profiter sans barrières.
+
+Rejoignez notre communauté de passionnés, et faites de chaque moment libre une occasion de découvrir de nouvelles histoires, de vibrer au rythme de vos personnages préférés, et de vous laisser emporter par des scénarios époustouflants.
+
+Bienvenue dans votre nouvelle destination de streaming, où la qualité rencontre le plaisir, et où chaque visite transforme votre temps d'écran en une expérience inoubliable. 🌟
+            </p>
+            <a href="index.html">
+                <button class="action-button" id="antharcite-button">Anthracite Saison 1</button>
+            </a>
+            <a href="Guerre-et-paix.html">
+                <button class="action-button" id="GetP-button">Guerre et paix Saison 1</button>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Fadadustream</p>
+    </footer>
+
+    <!-- Script JavaScript pour les redirections -->
+    <script>
+        document.getElementById('home-button').addEventListener('click', function() {
+            window.location.href = 'page_principale.html'; // Changez 'page_principale.html' selon votre structure
+        });
+
+        document.getElementById('antharcite-button').addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+
+        document.getElementById('GetP-button').addEventListener('click', function() {
+            window.location.href = 'Guerre-et-paix.html';
+        });
+    </script>
+</body>
+</html>

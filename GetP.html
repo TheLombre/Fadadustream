@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadadustream-Guerre et Paix</title>
+    <link rel="stylesheet" type="text/css" href="Saison 1 Anthracite.css">
+    <link rel="stylesheet" type="text/javascript" href="Saison 1.js">      
+    <style>
+        .bubble-title {
+            text-decoration-color: #96024f;
+            display: inline-block;
+            padding: 4px 45px;
+            background-color: #f53984;
+            border: 3px solid #7b0457;
+            border-radius: 10px;
+            font-size: 42px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .action-button {
+            padding: 20px 70px;
+            margin: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .action-button:hover {
+            background-color: #0056b3;
+        }
+        .home-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: #10102;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .home-button:hover {
+            background-color: #0056b3;
+        }
+        .home-button img {
+            width: 25px;
+            height: 25px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="bubble-title">Guerre et Paix Saison 1</h1>
+
+    <!-- Bouton Home -->
+    <button id="home-button" class="home-button">
+        <img src="home.png" alt="Home">
+    </button>
+
+    <main class="content">
+        <img src="GetP.jpg" alt="Anthracite">
+        <img src="VF.png" alt="VF">
+        <div>
+            <a href="EP-1-GetP.html"><button class="action-button">Episode 1</button></a>
+        </div>
+        <div>
+            <a href="EP-2-GetP.html"><button class="action-button">Episode 2</button></a>
+        </div>
+        <div>
+            <a href="EP-3-GetP.html"><button class="action-button">Episode 3</button></a>
+        </div>
+        <div>
+            <a href="EP-4-GetP.html"><button class="action-button">Episode 4</button></a>
+        </div>
+        <div>
+            <a href="EP-5-GetP.html"><button class="action-button">Episode 5</button></a>
+        </div>
+        <div>
+            <a href="EP-6-GetP.html"><button class="action-button">Episode 6</button></a>
+        </div>
+        <div>
+            <a href="page-principale.html"><button class="action-button">Go Back to Menu</button></a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fadadustream</p>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script>
+        document.getElementById('home-button').addEventListener('click', function() {
+            window.location.href = 'page-principale.html'; // Redirige vers page-principale.html
+        });
+    </script>
+    <script src="Saison 1.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #10102;
+    color: #10102;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #10102;
+.description {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.action-button {
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Style du bouton Home */
+.home-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #10102; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.home-button:hover {
+    background-color: #10102;
+}
+        .top-left {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: #10102;
+            border: none;
+            cursor: pointer;
+        }
+
+        .top-left img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .content {
+            padding: px;
+        }
+    </style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #102;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    color: #007bff;
+    padding: 50000px;
+}
+.description {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.action-button {
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.top-right {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    background-color: #f53984;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.top-right:hover {
+    background-color: #0056b3;
+}
+.loading {
+  position : fixed
+  position: absolute
+  left : 0 px
+  top: 0 px
+  }
