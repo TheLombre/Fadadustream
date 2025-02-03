@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadadustream-Anthracite</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Fond noir */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .bubble-title {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            color: #96024f;
+            border: 10px solid #96024f;
+            border-radius: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .description {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            color: #000; /* Texte noir pour meilleure lisibilité */
+        }
+
+        .action-button {
+            padding: 15px 30px;
+            margin: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .action-button:hover {
+            background-color: #0056b3;
+        }
+
+        .home-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: #10102;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .home-button:hover {
+            background-color: #0056b3;
+        }
+
+        .home-button img {
+            width: 25px;
+            height: 25px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="bubble-title">Anthracite et le mystère de la secte des écrins</h1>
+
+    <!-- Bouton Home -->
+    <button id="home-button" class="home-button">
+        <img src="home.png" alt="Home">
+    </button>
+
+    <!-- Contenu principal de la page -->
+    <main class="content">
+        <div class="description">
+            <p>Série drame :
+            Lorsque le journaliste Solal Heilman disparaît, sa fille Ida décide de partir à sa recherche.
+              Elle enquête sur le web puis se rend sur les lieux de sa disparition, la petite bourgade iseroise de Lévionna où elle rencontre Jaro, un repris de justice qui y purge sa peine en libération conditionnelle. Ida et Jaro mènent l'enquête mais doivent démêler des secrets enfouis liés, entre autres, à une mystérieuse secte dite « des Écrins » qui était en activité trente ans auparavant, en 1994.</p>
+            <a href="Saison-1-Anthracite.html">
+                <button class="action-button" id="anthracite-button">Saison 1</button>
+            </a>
+            <a href="page-principale.html">
+                <button class="action-button">Go Back to Menu</button>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fadadustream</p>
+    </footer>
+
+    <div class="video-container">
+        <iframe src="https://geo.dailymotion.com/player.html?video=x9d1030"
+            title="Dailymotion Video Player"
+            allow="web-share" allowfullscreen></iframe>
+    </div>
+
+    <!-- Scripts JavaScript -->
+    <script>
+        document.getElementById('home-button').addEventListener('click', function() {
+            window.location.href = 'page-principale.html'; // Redirige vers page-principale.html
+        });
+
+        document.getElementById('anthracite-button').addEventListener('click', function() {
+            window.location.href = 'Saison-1-Anthracite.html';
+        });
+
+        document.getElementById('GetP-button').addEventListener('click', function() {
+            window.location.href = 'Guerre-et-paix.html';
+        });
+    </script>
+</body>
+</html>

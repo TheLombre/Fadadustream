@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS Ep Anthracite">
+  <title>>Episode 2 Saison 1 Guerre et Paix</title>
+</head>
+<body>
+    <!-- GIF de chargement -->
+    <div id="loading" class="load">
+    </div>
+    
+    <!-- Contenu principal -->
+    <div class="content" style="display: none;">
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+            <iframe src="https://geo.dailymotion.com/player.html?video=x98excw"
+                style="width:100%; height:100%; position:absolute; left:0; top:0; overflow:hidden; border:none;"
+                allowfullscreen
+                title="Dailymotion Video Player"
+                allow="web-share">
+            </iframe>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            window.addEventListener('load', () => {
+                // Masquer le GIF de chargement
+                document.getElementById('loading').style.display = 'none';
+                // Afficher le contenu principal
+                document.querySelector('.content').style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>
